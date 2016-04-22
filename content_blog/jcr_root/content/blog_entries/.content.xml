@@ -19,5 +19,5 @@
     jcr:primaryType="sling:Folder"
     jcr:title="Second Blog Entry"
     jcr:description="Second blog description"
-    sling:resourceType="/apps/components/blog_entries">
+    sling:resourceType="components/blog_entries">
 </jcr:root>

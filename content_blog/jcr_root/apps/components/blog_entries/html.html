@@ -6,7 +6,8 @@
 		<p>${properties.jcr:title}</p>
 		<p>${properties.jcr:description}</p>
 		
-		<!--  /* <div data-sly-use.findPath="/sling_bundle_blog/findpath">${findpath.titleAndDescription}</div> */ -->
+		<div data-sly-use.findPath="com.sling_bundle_blog.FindPath">${findPath.titleAndDescription}</div>
+		
 		<form method="POST" action="http://localhost:8080/content/blog_entries/entries" enctype="multipart/form-data">
 		    <input type="text" name="title" />
 		    <input type="text" name="description" />
