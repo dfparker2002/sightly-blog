@@ -1,0 +1,16 @@
+<html>
+	<head>
+	</head>
+	
+	<body>
+		<p>${properties.jcr:title}</p>
+		<p>${properties.jcr:description}</p>
+		
+		<!--  /* <div data-sly-use.findPath="/sling_bundle_blog/findpath">${findpath.titleAndDescription}</div> */ -->
+		<form method="POST" action="http://localhost:8080/content/blog_entries/entries" enctype="multipart/form-data">
+		    <input type="text" name="title" />
+		    <input type="text" name="description" />
+		    <input type="Submit" />
+		</form>
+	</body>
+</html>

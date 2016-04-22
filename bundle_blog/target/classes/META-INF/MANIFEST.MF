@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1461313515928
+Build-Jdk: 1.8.0_91
+Built-By: jlsi
+Bundle-Description: com.sling_bundle_blog - bundle_blog
+Bundle-ManifestVersion: 2
+Bundle-Name: bundle_blog
+Bundle-SymbolicName: com.sling_bundle_blog.bundle_blog
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.sling_bundle_blog;version="1.0.0";uses:="org.apache.
+ sling.api.resource,org.apache.sling.models.annotations,org.osgi.service
+ .component"
+Import-Package: javax.inject,org.apache.sling.api.resource;version="[2.9
+ ,3)",org.apache.sling.models.annotations;version="[1.2,2)",org.osgi.fra
+ mework;version="[1.5,2)",org.osgi.service.component;version="[1.1,2)",o
+ rg.slf4j;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Service-Component: OSGI-INF/com.sling_bundle_blog.SimpleDSComponent.xml
+Sling-Model-Packages: com.sling_bundle_blog
+Tool: Bnd-3.0.0.201509101326
