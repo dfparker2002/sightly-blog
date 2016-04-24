@@ -24,4 +24,5 @@
 <workspaceFilter vesion="1.0">
     <filter root="/content/blog_entries"/>
     <filter root="/apps/components/blog_entries"/>
+    <filter root="/static"/>
 </workspaceFilter>
