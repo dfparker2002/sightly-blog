@@ -1,6 +1,6 @@
-# sightly-blog
+# [sightly](https://github.com/Adobe-Marketing-Cloud/sightly-spec)-blog
 
-Example project for how to setup a proper architecture for Apache Sling projects. Including a content and a bundle project.
+Example project for how to setup a proper architecture for [Apache Sling](https://sling.apache.org/) projects. Including a content and a bundle project.
 
 ## Dependencies
 - Apache Sling Eclipse Plugin
